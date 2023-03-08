@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>ec7c1703-a07b-49e8-9e72-52110e3b8367</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Kursovoi_progekt_Chemeris</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)localhost\assets\css\Dis.css" />
+    <Content Include="$(MSBuildThisFileDirectory)localhost\assets\css\main.css" />
+    <Content Include="$(MSBuildThisFileDirectory)localhost\assets\css\style.css" />
+    <Content Include="$(MSBuildThisFileDirectory)localhost\image\01.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)localhost\image\1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)localhost\image\2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)localhost\image\200.png" />
+    <Content Include="$(MSBuildThisFileDirectory)localhost\image\201.png" />
+    <Content Include="$(MSBuildThisFileDirectory)localhost\image\202.png" />
+    <Content Include="$(MSBuildThisFileDirectory)localhost\image\203.png" />
+    <Content Include="$(MSBuildThisFileDirectory)localhost\image\3.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)localhost\uploads\167816071520170810090017e9ea62cca9.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)localhost\uploads\16782446951642095964140522130.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)localhost\index.php" />
+    <None Include="$(MSBuildThisFileDirectory)localhost\katalog.php" />
+    <None Include="$(MSBuildThisFileDirectory)localhost\profile.php" />
+    <None Include="$(MSBuildThisFileDirectory)localhost\register.php" />
+    <None Include="$(MSBuildThisFileDirectory)localhost\users.sql" />
+    <None Include="$(MSBuildThisFileDirectory)localhost\vendor\connect.php" />
+    <None Include="$(MSBuildThisFileDirectory)localhost\vendor\logout.php" />
+    <None Include="$(MSBuildThisFileDirectory)localhost\vendor\signin.php" />
+    <None Include="$(MSBuildThisFileDirectory)localhost\vendor\signup.php" />
+  </ItemGroup>
+</Project>

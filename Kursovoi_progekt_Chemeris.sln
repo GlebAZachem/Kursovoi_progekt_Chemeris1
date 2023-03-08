@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Kursovoi_progekt_Chemeris", "Kursovoi_progekt_Chemeris\Kursovoi_progekt_Chemeris.shproj", "{EC7C1703-A07B-49E8-9E72-52110E3B8367}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Kursovoi_progekt_Chemeris\Kursovoi_progekt_Chemeris.projitems*{ec7c1703-a07b-49e8-9e72-52110e3b8367}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0ABF2CB2-1CD2-47E7-AD9E-86C9A33FEEA2}
+	EndGlobalSection
+EndGlobal
